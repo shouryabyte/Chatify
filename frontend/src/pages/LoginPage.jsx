@@ -1,8 +1,4 @@
 function LoginPage() {
-  const {authUser,isLoading,login}=userAuthStore()
-  return (
-    <div>LoginPage</div>
-  )
+  return <div>login page</div>;
 }
-
-export default LoginPage
+export default LoginPage;
